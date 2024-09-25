@@ -1,0 +1,33 @@
+Muscunivers is a shopping website specialized in the sale of muscle-building products. It offers a wide range of products divided into 3 categories : weightlifting, fitness, and nutrition. These categories include weightlifting equipment such as weights, kits, stations, and benches, fitness equipment such as machines and accessories, and dietary supplements. Each customer can create a protected account, add any product to his personal cart and  place an order when his cart is full.
+
+Frontend
+Few front-end measures have been deployed to make our application much more sustainable.
+
+	- Products display :
+Clicking on a category button leads to a display of the articles of this category. To make the page loading lighter, we chose to split our category by pages of 12 articles each. By this way, we minimize the quantity of data use. In addition, if a page has already been visited, the products list will be load from the client cache and not from the data base.
+
+	- Code minimization
+PHP is basically a html code generator. A smart use of this tool is require to have as less html code to load as possible. The size of our code has a role in the page loading. A long code will take time to load and make the site heavier.
+The user can switch article categories thanks to a dynamic navigation bar. When a user chooses a category, the page change of name and the current category button of the navigation bar passes from white to black. For each page, the same code is used to change the name and the color of the button thanks to a php function. Thanks to this, we use the same part of code for all pages to display the navigation bar.
+
+	- Responsive Design :
+For smaller screens, there is no need to display all elements from the website. Some features, like the zoom on the article page, have been removed on mobile. The navigation bar is also smaller with all category buttons grouped in only one scrolling menu.
+
+	- Library uses :
+We managed to use libraries from Codigniter to avoid time and perfomances loss. For example the cache system is a driver already implemented. We also used library for the validation of form fields.
+
+
+
+Contents :
+Images displayed on our website can take a lot of memory space. That's why all of our pictures from the favicon to products' illustrations have been compressed to minimize their weight. A lot of memory has been saved thanks to this measure and our website is way faster and lighter. In addtion we didn’t use any video nor dynamic image. 
+
+Backend
+
+UX-UI
+
+In the brainstorming process, all stakeholders are taken in their entire human dimension because when they want to send us a message. We ask them to inform their civility and we provide them 3 choices : Mr, Mrs and other.
+We do not know if stakeholders are informed about sustainable IT. But, we indicate on our website via a small green logo that we are a green website.
+Moreover, to reduce energy resources and the impact of the material deterioration of the visual, we have implemented a visual soberness because we have used not a lot of colour, maybe less than 8 colours and these are not bright colours. We don’t use bright colours because it uses more energy than sober colours.
+To reduce our ecological footprint, there is a media management in place on our website. For example, we compress all our images to make it greener and faster. Moreover, we use a cache to store call results to our customers' database. This helps to reduce calls to the database that consume a lot of energy and time.
+Moreover, we use the same page html for differents views. The views have little differences, so we don't duplicate code thanks to php. To conclude, we just have one specific font for the entire website which is ‘Poppins’ in two different weights. 
+

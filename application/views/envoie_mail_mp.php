@@ -1,0 +1,1 @@
+Nous vous avons envoyé un mail, merci de regarder dans votre boîte mail, le mail peut aussi atterir dans vos spams.
